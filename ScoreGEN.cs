@@ -14,17 +14,18 @@ public class ScoreGEN : MonoBehaviour
   {
     if(other.CompareTag(rifiuto))
     {
-      scoreText.text = "Ben fatto!";
+      //"You terminated <color=blue>" + k.Killed + "</color>"
+      scoreText.text = "<color=green>Ben fatto! </color>";
       Invoke("TextFadeOut", 3f);
     }
     if(other.CompareTag(sbagliato1))
     {
-      scoreText.text = "Bidone sbagliato!";
+      scoreText.text = "<color=red>Bidone sbagliato!</color>";
       Invoke("TextFadeOut", 3f);
     }
     if(other.CompareTag(sbagliato2))
     {
-      scoreText.text = "Bidone sbagliato!";
+      scoreText.text = "<color=red>Bidone sbagliato!</color>";
       Invoke("TextFadeOut", 3f);
     }
     if(other.CompareTag("palla"))
