@@ -1,4 +1,3 @@
 # hello-world
-first try repository
+repository script per la tesi
 
-Prova di scrittura per fare commit e commenti
