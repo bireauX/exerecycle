@@ -18,7 +18,8 @@ public class Tutorial : MonoBehaviour
      if(Input.anyKeyDown)
      {
          Time.timeScale = 1;
-         Destroy(gameObject);
+         //alla pressione di un tasto, dopo due secondi sparisce il tutorial
+         Destroy(gameObject, 2f);
      }
  }
 }
